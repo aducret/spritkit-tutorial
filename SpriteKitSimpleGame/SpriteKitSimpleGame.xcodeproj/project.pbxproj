@@ -16,6 +16,7 @@
 		462F89221EA8F274009D7BF0 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 462F89201EA8F274009D7BF0 /* background-music-aac.caf */; };
 		462F89231EA8F274009D7BF0 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 462F89211EA8F274009D7BF0 /* pew-pew-lei.caf */; };
 		462F89251EA8F65C009D7BF0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462F89241EA8F65C009D7BF0 /* Utils.swift */; };
+		464F9CA71EB38DF500685984 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F9CA61EB38DF500685984 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		462F89201EA8F274009D7BF0 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		462F89211EA8F274009D7BF0 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		462F89241EA8F65C009D7BF0 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		464F9CA61EB38DF500685984 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				462F89051EA8EFE5009D7BF0 /* AppDelegate.swift */,
 				462F890B1EA8EFE5009D7BF0 /* GameScene.swift */,
 				462F890D1EA8EFE5009D7BF0 /* GameViewController.swift */,
+				464F9CA61EB38DF500685984 /* GameOverScene.swift */,
 				462F89241EA8F65C009D7BF0 /* Utils.swift */,
 				462F890F1EA8EFE5009D7BF0 /* Main.storyboard */,
 				462F89141EA8EFE5009D7BF0 /* LaunchScreen.storyboard */,
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				464F9CA71EB38DF500685984 /* GameOverScene.swift in Sources */,
 				462F890C1EA8EFE5009D7BF0 /* GameScene.swift in Sources */,
 				462F890E1EA8EFE5009D7BF0 /* GameViewController.swift in Sources */,
 				462F89061EA8EFE5009D7BF0 /* AppDelegate.swift in Sources */,
@@ -328,6 +332,7 @@
 				462F891C1EA8EFE5009D7BF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
